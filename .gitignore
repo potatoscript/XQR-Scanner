@@ -1,0 +1,82 @@
+# Android Studio and IntelliJ project files
+*.iml
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/httpRequests
+
+# Gradle-related files
+.gradle/
+**/build/
+local.properties
+/local.properties
+
+# Android generated files
+/captures/
+/output.json
+*.log
+
+# NDK and CMake files
+.externalNativeBuild/
+.cxx/
+obj/
+libs/
+jniLibs/
+
+# Compiled files and artifacts
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.a
+*.o
+*.keystore
+*.jks
+
+# Kotlin specific
+*.kts
+.gradle/
+gradle-app.setting
+
+# Java specific
+*.class
+
+# Temporary files
+*.swp
+*.lock
+*.tmp
+*.temp
+*.bak
+*.nfs*
+
+# Mac OS specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+*.stackdump
+
+# Backup files
+.projectFilesBackup/
+projectFilesBackup/
+
+# Generated files by translators or formatters
+*.sln
+*.suo
+*.csproj
+*.sln.DotSettings.user
+
+# Ignore node_modules
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json

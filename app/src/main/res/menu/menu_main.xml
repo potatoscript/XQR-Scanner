@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_save"
+        android:title="Save Data"
+        android:icon="@drawable/ic_save"
+        android:iconTint="@color/pink_100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_camera"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:iconTint="@color/teal_200"
+        android:title="Camera"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_data"
+        android:title="Load Data"
+        android:icon="@drawable/ic_searchdata"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_qrcode"
+        android:icon="@drawable/ic_qrcode"
+        android:title="Create QR code"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_reload"
+        android:title="Refresh all field"
+        android:icon="@drawable/ic_reload"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_help"
+        android:title="Help"
+        app:showAsAction="always" />
+
+
+</menu>

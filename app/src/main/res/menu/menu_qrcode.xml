@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_qrcodesave"
+        android:title="Save QR Code"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_pairing"
+        android:icon="@drawable/ic_pairing"
+        android:title="Pairing with Printer"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_qrcodeprint"
+        android:icon="@drawable/ic_printer"
+        android:title="Print QR Code"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_qrcodeshare"
+        android:icon="@drawable/ic_sharing"
+        android:title="Share QR Code"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+</menu>

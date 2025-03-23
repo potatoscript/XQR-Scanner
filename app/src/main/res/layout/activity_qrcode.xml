@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/whitebutton"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/whitebutton"
+        android:ems="10"
+        android:hint="Enter QR Content"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#131313"
+        android:textColorHint="#7A7878"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iv_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_qrcolor"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:tintMode="add"
+        app:tint="#F80303" />
+
+    <Button
+        android:id="@+id/btn_qrcolor"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_qrcode"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/whitebutton"
+        android:text="QR Color"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:icon="@drawable/colorpickericon"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="multiply" />
+
+    <EditText
+        android:id="@+id/txtSize"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_qrcode"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/btn_qrcolor"
+        android:background="@drawable/whitebutton"
+        android:ems="10"
+        android:hint="QR Size"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#858383"
+        android:textSize="18sp" />
+
+</RelativeLayout>
